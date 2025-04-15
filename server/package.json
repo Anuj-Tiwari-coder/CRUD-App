@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Anuj-Tiwari-coder/CRUD-WITH-React#readme",
+  "bugs": {
+    "url": "https://github.com/Anuj-Tiwari-coder/CRUD-WITH-React/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anuj-Tiwari-coder/CRUD-WITH-React.git"
+  },
+  "license": "ISC",
+  "author": "Anuj Tiwari",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
