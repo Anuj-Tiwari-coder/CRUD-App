@@ -1,0 +1,119 @@
+/* User Table Container */
+.userTable {
+    padding: 20px;
+    margin: 30px auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    width: 90%;
+    max-width: 1200px;
+    background:  antiquewhite;
+    backdrop-filter: blur(8px);
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+
+.userTable:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Add User Button */
+.addButton {
+    display: inline-block;
+    text-decoration: none;
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: white;
+    font-weight: 600;
+    padding: 12px 22px;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+    margin-bottom: 15px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.addButton:hover {
+    background: linear-gradient(135deg, #0056b3, #003b80);
+    transform: scale(1.05);
+}
+
+/* Table Styling */
+.userTable table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Header */
+.userTable table thead th {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: white;
+    padding: 14px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+/* Table Rows */
+.userTable table tbody tr {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    transition: background 0.3s, transform 0.2s;
+}
+
+/* Alternate Row Color for Readability */
+.userTable table tbody tr:nth-child(even) {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+/* Hover Effect */
+.userTable table tbody tr:hover {
+    background: rgba(0, 0, 0, 0.1);
+    transform: scale(1.01);
+}
+
+/* Table Data Cells */
+.userTable table tbody td {
+    padding: 14px;
+    font-size: 15px;
+    color: black; /* Changed to black */
+}
+
+/* Action Buttons */
+.actionButton {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Shared Action Button Styles */
+.actionButton button,
+.actionButton a {
+    border: none;
+    outline: none;
+    font-weight: bold;
+    padding: 10px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    font-size: 14px;
+}
+
+/* Delete Button */
+.actionButton button {
+    background: linear-gradient(135deg, #dc3545, #b02a37);
+    color: white;
+}
+
+.actionButton button:hover {
+    background: linear-gradient(135deg, #b02a37, #8b1e2c);
+}
+
+/* Edit Button */
+.actionButton a {
+    background: linear-gradient(135deg, #28a745, #1e7e34);
+    color: white;
+    text-decoration: none;
+}
+
+.actionButton a:hover {
+    background: linear-gradient(135deg, #1e7e34, #145922);
+}
